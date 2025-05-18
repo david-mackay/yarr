@@ -1,0 +1,2 @@
+ffmpeg -i HOTDS02E01.mp4 -c:v copy -c:a aac -ac 2 -b:a 128k -movflags faststart output_ios.mp4
+
